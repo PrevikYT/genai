@@ -1,6 +1,7 @@
 import os
 # Принудительно указываем регион для Google GenAI (может потребоваться, если API недоступен в вашем регионе)
 os.environ["GOOGLE_CLOUD_LOCATION"] = "us-central1"
+from background import keep_alive
 
 import logging
 from telegram import Update
